@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+hr {
+    width: 600px;
+}
+
+.nav_u {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin-top: -5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(92, 91, 91);
+}
+
+.nav_li {
+    float: left;
+}
+
+.nav_a {
+    display: block;
+    color: rgb(0, 187, 156);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+}
+
+.nav_a:hover {
+    background-color: rgb(117, 115, 115)
+}
+
+.nav_ab {
+    float: right;
+}
+
+.quote {
+    color: rgb(0, 143, 119);
+    font-family: 'Cinzel', serif;
+    display: block;
+    text-align: center;
+    width: 450px;
+    margin-left: 740px;
+    margin-top: 100px;
+}
+
+.intro {
+    color: rgb(0, 143, 119);
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    margin-top: 100px;
+}
+
+.occ {
+    margin-top: -25px;
+}
+
+.xp_imgs_cont {
+    margin-left: 700px;
+}
+
+.xp_imgs {
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.projects {
+    background-color: white;
+}
