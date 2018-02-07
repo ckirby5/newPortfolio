@@ -1,5 +1,6 @@
 body {
     background-color: rgb(39, 38, 38);
+    margin: 0;
 }
 
 hr {
@@ -12,9 +13,6 @@ hr {
     background-color: rgb(78, 78, 78);
     font-family: 'Cinzel', serif;
     border-radius: 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
   }
   
   /* Links inside the navbar */
@@ -106,6 +104,10 @@ hr {
     margin-top: 100px;
 }
 
+.intro hr {
+    margin-top: -20px;
+}
+
 .occ {
     margin-top: -25px;
 }
@@ -131,7 +133,7 @@ hr {
 
 .about p {
     width: 450px;
-    margin-left: 700px;
+    margin-left: 725px;
     margin-top: 75px;
     font-size: 20px;
     text-align: justify;
