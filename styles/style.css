@@ -1,6 +1,7 @@
 body {
     background-color: rgb(39, 38, 38);
     margin: 0;
+    display: none;
 }
 
 hr {
@@ -81,10 +82,10 @@ hr {
     background-color: rgb(121, 121, 121);
   }
   
-  /* Show the dropdown menu on hover */
+  /* Show the dropdown menu on hover
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  }*/
 
 .quote {
     color: rgb(0, 143, 119);
