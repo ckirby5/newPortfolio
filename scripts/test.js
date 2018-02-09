@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(".dropdown").click(function() {
+    $(".dropdown").hover(function() {
         $(".dropdown-content").fadeToggle("slow");
     });
     $(function() {
