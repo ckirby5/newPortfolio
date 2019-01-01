@@ -2,39 +2,34 @@
 <html>
     <head>
         <title>Christian Kirby</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="assets/stylesheets/styles.css">
         <script src="scripts/jquery-3.3.1.min.js"></script>
         <script src="scripts/test.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Major+Mono+Display" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     </head>
     <body>
-        <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="pages/about.html">About</a>
-            <div class="dropdown">
-                <button class="dropbtn">Projects 
-                    <i class="fa fa-caret-down"></i>
-                </button>
-            <div class="dropdown-content">
-                <a href="../pages/projects/logs_analysis.html">Logs Analysis</a>
-            </div>
-           </div>
-           <a class="a_contact" href="#contact">Contact</a>
-           <a href="#blog">Blog</a>
-        </div>
-        <div class="intro">
-            <h1 class="name">Christian Kirby</h1>
-            <h2 class="occ">Full Stack Web Developer</h2>
+        <header class="container group primary-header">
+            <nav class="nav">
+                <ul>
+                    <li class="selected"><i class="fas fa-igloo"></i><a href="../newPortfolio/index.html">Hello</a></li>
+                    <li><i class="fas fa-file"></i><a href="../newPortfolio/pages/resumeClone.html">Resume</a></li>
+                    <li><i class="fas fa-project-diagram"></i><a href="../newPortfolio/pages/portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container group intro-cont">
+            <h1>Christian Kirby</h1>
             <hr>
+            <p id="typing"></p>
         </div>
-        <div class="xp_imgs_cont">
-            <img class="xp_imgs" src="photos/html_img.png">
-            <img class="xp_imgs" src="photos/css_img.png">
-            <img class="xp_imgs" src="photos/js_img.png">
-            <img class="xp_imgs" src="photos/postgre_img.png">
-            <img class="xp_imgs" src="photos/python_img.png">
-            <img class="xp_imgs" src="photos/git.png">
-        </div>
-        
+        <footer class="container primary-footer group">        
+            <nav class="nav">
+                <ul>
+                    <li>Location: Alaska, The Last Frontier, +1(850)776-0702, <a href="christian.h.kirby@gmail.com">christian.h.kirby@gmail.com</a></li>
+                    <li><a href="http://www.thelifeofkirby.com">www.thelifeofkirby.com</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
