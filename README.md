@@ -1,10 +1,10 @@
-#Portfolio
+# Portfolio
 ![Preview of Website](/assets/photos/preview.png)
 
-##Information
+## Information
 My personal website [here](thelifeofkirby.com)
 
-##Built With
+## Built With
 - HTML
 - CSS
 - Vanilla Javascript
